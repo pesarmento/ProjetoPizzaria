@@ -31,6 +31,8 @@ html{
     padding-left: 30rem;
 }
 
+
+/* logo parte de cima do sire HOME, SOBRE, ETC...*/
 .logo{
     width: 70px;
     height: auto;
@@ -39,7 +41,51 @@ html{
     align-items: center;
 }
 
+.logo h3{
+    color: white;
+    font-size: 1.6rem;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.content .list-menu{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* fica alinhado na horizontal com o espaço entre eles*/
+}
+.content .list-menu li a{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: white;
+    font-size: 1.8rem;
+    text-transform: uppercase; /*fica  tudo em caixa alta mesmo nao estando escrito*/
+    font-weight: 500; /* largura da fonte*/
+    transition: all 200ms ease-in; /* tempo para a transição do efeito ao passar o mouse por cima*/
+    /* podemos usar assim: padding: 3rem 1rem 2rem 1rem; top , right , bottom, left sentido horario*/
+}
+
+/*efeito ao passar o mouse por cima*/
+.content .list-menu li :hover{
+    background-color: #3333;
+    border-bottom: 4px solid #ffc506;
+    color: #ffc506;
+}
+
+/* começando first  section*/
+
+
 .first-section{
+    background-image: linear-gradient(rgba(29,29,29,0.8), rgba(29,29,29,0.8)) ,url(./img/fundopizza.jpg);
+    background-position: center center; /* centralizar a imagem*/
+    background-size: cover; /*para cobrir toda a tela*/
+    background-repeat: no-repeat; /* para nao repetir a imagem no decorrer da tela*/
+    background-position-y: 50px;
     height: 100vh;
     width: 100vw;
     display: flex;
