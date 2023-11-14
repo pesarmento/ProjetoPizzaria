@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap'); /*fonte*/
+
+*{ /*zerando o projeto, tirando todas as configurações padroes*/
+    
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none; /*tira as bolinhas*/
+    border: none;   /*tira as bordas*/
+    text-decoration: none; /*tira os traços de baixo do link*/
+    font-family: 'Roboto', sans-serif; /*Fonte utilizada*/
+}
+
+
+html{
+    width: 100vw; /* Mostrando que o html pode pegar todo o tamanho de nossa tela*/
+    height: 100vh;
+    font-size: 62.5%; /*tatica responsiva. mais facil para utilizar questoes responsivas durante o projeto pixel estatico, consegue por variaveis*/ 
+    overflow-x: hidden; /* pagina nao vai ter a barra de rolagem horizontal*/
+}
+
+/* Menu */ 
+
+.content {
+    width: 100vw;
+    height: 70px;
+    display: flex; /*itens ficam um do lado do outro*/
+    justify-content: space-around; /* espaçamento entre os itens*/
+    align-items: center; /* para alinhar ao centro */
+    background-color: #1f1e1f;
+    position: fixed; /*para o header ficar fixado na tela durante a rolagem*/
+    padding-left: 30rem;
+}
+
+.logo{
+    width: 70px;
+    height: auto;
+    cursor: pointer; /* aparecer o sinal de maozinha */
+    display: flex; /* colocar uma do lado do outro*/
+    align-items: center;
+}
+
+.first-section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column; /* elemento fles, porem em forma de coluna um em cima do outro*/
+    justify-content: center; /*alinhar na vertical*/
+    align-items: center;
+}
