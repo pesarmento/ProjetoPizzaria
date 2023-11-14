@@ -2,6 +2,7 @@
 
 *{ /*zerando o projeto, tirando todas as configurações padroes*/
     
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none; /*tira as bolinhas*/
@@ -89,7 +90,7 @@ html{
     height: 100vh;
     width: 100vw;
     display: flex;
-    flex-direction: column; /* elemento fles, porem em forma de coluna um em cima do outro*/
+    flex-direction: row; /* elemento fles, porem em forma de coluna um em cima do outro*/
     justify-content: center; /*alinhar na vertical*/
     align-items: center;
 }
