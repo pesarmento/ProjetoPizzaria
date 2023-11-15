@@ -90,7 +90,7 @@ html{
     height: 100vh;
     width: 100vw;
     display: flex;
-    flex-direction: row; /* elemento fles, porem em forma de coluna um em cima do outro*/
+    flex-direction: row; /* elemento flex, porem em forma de coluna um em cima do outro*/
     justify-content: center; /*alinhar na vertical*/
     align-items: center;
 }
@@ -140,4 +140,45 @@ html{
     width: 480px;
     display: flex;
     justify-content: space-between;
+}
+
+/* SOBRE NOS*/
+
+.sobre-nos{
+    background-color: #1f1e1f;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos img{
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2{
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+.contentsobre p{
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
 }
