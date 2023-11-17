@@ -17,6 +17,7 @@ html{
     height: 100vh;
     font-size: 62.5%; /*tatica responsiva. mais facil para utilizar questoes responsivas durante o projeto pixel estatico, consegue por variaveis*/ 
     overflow-x: hidden; /* pagina nao vai ter a barra de rolagem horizontal*/
+    scroll-behavior: smooth;
 }
 
 /* Menu */ 
